@@ -1,0 +1,164 @@
+2026-09-01T14:57:53.752Z	Initializing build environment...
+2026-09-01T14:57:57.527Z	Success: Finished initializing build environment
+2026-09-01T14:57:58.412Z	Cloning seed repository...
+2026-09-01T14:57:58.420Z	Cloning from: https://github.com/cloudflare/templates.git
+2026-09-01T14:58:00.923Z	Overwriting files
+2026-09-01T14:58:01.469Z	Pushing to destination: https://github.com/labejarichard95-ctrl/grace-innovation-project-3.git
+2026-09-01T14:58:03.973Z	Detected the following tools from environment: npm@10.9.2, nodejs@24.18.0, bun@1.2.15
+2026-09-01T14:58:03.976Z	Installing project dependencies: bun install --frozen-lockfile
+2026-09-01T14:58:04.598Z	bun install v1.2.15 (df017990)
+2026-09-01T14:58:04.618Z	[10.71ms] migrated lockfile from package-lock.json
+2026-09-01T14:58:09.309Z	Saved lockfile
+2026-09-01T14:58:09.315Z	
+2026-09-01T14:58:09.315Z	+ @astrojs/cloudflare@12.6.12
+2026-09-01T14:58:09.315Z	+ @astrojs/mdx@4.3.13
+2026-09-01T14:58:09.315Z	+ @astrojs/rss@4.0.14
+2026-09-01T14:58:09.315Z	+ @astrojs/sitemap@3.6.1
+2026-09-01T14:58:09.315Z	+ astro@5.16.9
+2026-09-01T14:58:09.316Z	+ typescript@5.9.3
+2026-09-01T14:58:09.316Z	+ wrangler@4.88.0
+2026-09-01T14:58:09.316Z	
+2026-09-01T14:58:09.316Z	398 packages installed [4.77s]
+2026-09-01T14:58:10.008Z	Executing user build command: npm run build
+2026-09-01T14:58:10.476Z	
+2026-09-01T14:58:10.476Z	> build
+2026-09-01T14:58:10.476Z	> astro build
+2026-09-01T14:58:10.476Z	
+2026-09-01T14:58:12.442Z	14:58:12 [@astrojs/cloudflare] Enabling sessions with Cloudflare KV with the "SESSION" KV binding.
+2026-09-01T14:58:12.442Z	14:58:12 [@astrojs/cloudflare] If you see the error "Invalid binding `SESSION`" in your build output, you need to add the binding to your wrangler config file.
+2026-09-01T14:58:12.454Z	14:58:12 [WARN] [adapter] Cloudflare does not support sharp at runtime. However, you can configure `imageService: "compile"` to optimize images with sharp on prerendered pages during build time.
+2026-09-01T14:58:13.031Z	14:58:13 [content] Syncing content
+2026-09-01T14:58:13.394Z	14:58:13 [content] Synced content
+2026-09-01T14:58:13.395Z	14:58:13 [types] Generated 929ms
+2026-09-01T14:58:13.396Z	14:58:13 [build] output: "static"
+2026-09-01T14:58:13.396Z	14:58:13 [build] mode: "server"
+2026-09-01T14:58:13.397Z	14:58:13 [build] directory: /opt/buildhome/repo/dist/
+2026-09-01T14:58:13.397Z	14:58:13 [build] adapter: @astrojs/cloudflare
+2026-09-01T14:58:13.398Z	14:58:13 [build] Collecting build info...
+2026-09-01T14:58:13.398Z	14:58:13 [build] ✓ Completed in 956ms.
+2026-09-01T14:58:13.398Z	14:58:13 [build] Building server entrypoints...
+2026-09-01T14:57:53.752Z	Initializing build environment...
+2026-09-01T14:57:57.527Z	Success: Finished initializing build environment
+2026-09-01T14:57:58.412Z	Cloning seed repository...
+2026-09-01T14:57:58.420Z	Cloning from: https://github.com/cloudflare/templates.git
+2026-09-01T14:58:00.923Z	Overwriting files
+2026-09-01T14:58:01.469Z	Pushing to destination: https://github.com/labejarichard95-ctrl/grace-innovation-project-3.git
+2026-09-01T14:58:03.973Z	Detected the following tools from environment: npm@10.9.2, nodejs@24.18.0, bun@1.2.15
+2026-09-01T14:58:03.976Z	Installing project dependencies: bun install --frozen-lockfile
+2026-09-01T14:58:04.598Z	bun install v1.2.15 (df017990)
+2026-09-01T14:58:04.618Z	[10.71ms] migrated lockfile from package-lock.json
+2026-09-01T14:58:09.309Z	Saved lockfile
+2026-09-01T14:58:09.315Z	
+2026-09-01T14:58:09.315Z	+ @astrojs/cloudflare@12.6.12
+2026-09-01T14:58:09.315Z	+ @astrojs/mdx@4.3.13
+2026-09-01T14:58:09.315Z	+ @astrojs/rss@4.0.14
+2026-09-01T14:58:09.315Z	+ @astrojs/sitemap@3.6.1
+2026-09-01T14:58:09.315Z	+ astro@5.16.9
+2026-09-01T14:58:09.316Z	+ typescript@5.9.3
+2026-09-01T14:58:09.316Z	+ wrangler@4.88.0
+2026-09-01T14:58:09.316Z	
+2026-09-01T14:58:09.316Z	398 packages installed [4.77s]
+2026-09-01T14:58:10.008Z	Executing user build command: npm run build
+2026-09-01T14:58:10.476Z	
+2026-09-01T14:58:10.476Z	> build
+2026-09-01T14:58:10.476Z	> astro build
+2026-09-01T14:58:10.476Z	
+2026-09-01T14:58:12.442Z	14:58:12 [@astrojs/cloudflare] Enabling sessions with Cloudflare KV with the "SESSION" KV binding.
+2026-09-01T14:58:12.442Z	14:58:12 [@astrojs/cloudflare] If you see the error "Invalid binding `SESSION`" in your build output, you need to add the binding to your wrangler config file.
+2026-09-01T14:58:12.454Z	14:58:12 [WARN] [adapter] Cloudflare does not support sharp at runtime. However, you can configure `imageService: "compile"` to optimize images with sharp on prerendered pages during build time.
+2026-09-01T14:58:13.031Z	14:58:13 [content] Syncing content
+2026-09-01T14:58:13.394Z	14:58:13 [content] Synced content
+2026-09-01T14:58:13.395Z	14:58:13 [types] Generated 929ms
+2026-09-01T14:58:13.396Z	14:58:13 [build] output: "static"
+2026-09-01T14:58:13.396Z	14:58:13 [build] mode: "server"
+2026-09-01T14:58:13.397Z	14:58:13 [build] directory: /opt/buildhome/repo/dist/
+2026-09-01T14:58:13.397Z	14:58:13 [build] adapter: @astrojs/cloudflare
+2026-09-01T14:58:13.398Z	14:58:13 [build] Collecting build info...
+2026-09-01T14:58:13.398Z	14:58:13 [build] ✓ Completed in 956ms.
+2026-09-01T14:58:13.398Z	14:58:13 [build] Building server entrypoints...
+2026-09-01T14:58:16.293Z	14:58:16 [vite] ✓ built in 2.87s
+2026-09-01T14:58:16.295Z	14:58:16 [build] ✓ Completed in 2.90s.
+2026-09-01T14:58:16.328Z	
+2026-09-01T14:58:16.328Z	 prerendering static routes 
+2026-09-01T14:58:16.334Z	14:58:16 ▶ src/pages/about.astro
+2026-09-01T14:58:16.348Z	14:58:16   └─ /about/index.html (+14ms) 
+2026-09-01T14:58:16.350Z	14:58:16 ▶ src/pages/blog/index.astro
+2026-09-01T14:58:16.355Z	14:58:16   └─ /blog/index.html (+4ms) 
+2026-09-01T14:58:16.355Z	14:58:16 ▶ src/pages/blog/[...slug].astro
+2026-09-01T14:58:16.363Z	14:58:16   ├─ /blog/using-mdx/index.html (+7ms) 
+2026-09-01T14:58:16.365Z	14:58:16   ├─ /blog/first-post/index.html (+1ms) 
+2026-09-01T14:58:16.366Z	14:58:16   ├─ /blog/second-post/index.html (+1ms) 
+2026-09-01T14:58:16.369Z	14:58:16   ├─ /blog/third-post/index.html (+1ms) 
+2026-09-01T14:58:16.371Z	14:58:16   └─ /blog/markdown-style-guide/index.html (+4ms) 
+2026-09-01T14:58:16.377Z	14:58:16 λ src/pages/rss.xml.js
+2026-09-01T14:58:16.384Z	14:58:16   └─ /rss.xml (+7ms) 
+2026-09-01T14:58:16.385Z	14:58:16 ▶ src/pages/index.astro
+2026-09-01T14:58:16.387Z	14:58:16   └─ /index.html (+2ms) 
+2026-09-01T14:58:16.389Z	14:58:16 ✓ Completed in 77ms.
+2026-09-01T14:58:16.389Z	
+2026-09-01T14:58:16.390Z	14:58:16 [build] Rearranging server assets...
+2026-09-01T14:58:16.404Z	14:58:16 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+2026-09-01T14:58:16.404Z	14:58:16 [build] Server built in 3.96s
+2026-09-01T14:58:16.405Z	14:58:16 [build] Complete!
+2026-09-01T14:58:16.486Z	Success: Build command completed
+2026-09-01T14:58:16.782Z	Executing user deploy command: npm run deploy
+2026-09-01T14:58:17.142Z	
+2026-09-01T14:58:17.142Z	> deploy
+2026-09-01T14:58:17.143Z	> wrangler deploy
+2026-09-01T14:58:17.143Z	
+2026-09-01T14:58:18.359Z	
+2026-09-01T14:58:18.359Z	 ⛅️ wrangler 4.88.0
+2026-09-01T14:58:18.359Z	───────────────────
+2026-09-01T14:58:19.305Z	🌀 Building list of assets...
+2026-09-01T14:58:19.309Z	✨ Read 62 files from the assets directory /opt/buildhome/repo/dist
+2026-09-01T14:58:19.318Z	🌀 Starting asset upload...
+2026-09-01T14:58:20.922Z	🌀 Found 20 new or modified static assets to upload. Proceeding with upload...
+2026-09-01T14:58:20.922Z	+ /sitemap-index.xml
+2026-09-01T14:58:20.922Z	+ /rss.xml
+2026-09-01T14:58:20.923Z	+ /blog/index.html
+2026-09-01T14:58:20.923Z	+ /blog/second-post/index.html
+2026-09-01T14:58:20.924Z	+ /fonts/atkinson-regular.woff
+2026-09-01T14:58:20.924Z	+ /blog-placeholder-3.jpg
+2026-09-01T14:58:20.924Z	+ /blog-placeholder-5.jpg
+2026-09-01T14:58:20.924Z	+ /favicon.svg
+2026-09-01T14:58:20.924Z	+ /index.html
+2026-09-01T14:58:20.924Z	+ /blog/first-post/index.html
+2026-09-01T14:58:20.924Z	+ /about/index.html
+2026-09-01T14:58:20.924Z	+ /fonts/atkinson-bold.woff
+2026-09-01T14:58:20.924Z	+ /blog-placeholder-1.jpg
+2026-09-01T14:58:20.925Z	+ /blog-placeholder-4.jpg
+2026-09-01T14:58:20.925Z	+ /sitemap-0.xml
+2026-09-01T14:58:20.925Z	+ /blog/using-mdx/index.html
+2026-09-01T14:58:20.925Z	+ /blog/third-post/index.html
+2026-09-01T14:58:20.925Z	+ /blog-placeholder-about.jpg
+2026-09-01T14:58:20.925Z	+ /blog/markdown-style-guide/index.html
+2026-09-01T14:58:20.925Z	+ /blog-placeholder-2.jpg
+2026-09-01T14:58:21.732Z	Uploaded 6 of 20 assets
+2026-09-01T14:58:22.111Z	Uploaded 13 of 20 assets
+2026-09-01T14:58:22.633Z	Uploaded 20 of 20 assets
+2026-09-01T14:58:22.634Z	✨ Success! Uploaded 20 files (1.71 sec)
+2026-09-01T14:58:22.634Z	
+2026-09-01T14:58:22.702Z	Total Upload: 508.85 KiB / gzip: 112.32 KiB
+2026-09-01T14:58:26.593Z	Worker Startup Time: 27 ms
+2026-09-01T14:58:26.595Z	Your Worker has access to the following bindings:
+2026-09-01T14:58:26.595Z	Binding            Resource      
+2026-09-01T14:58:26.595Z	env.ASSETS         Assets        
+2026-09-01T14:58:26.595Z	
+2026-09-01T14:58:26.596Z	Uploaded grace-innovation-project-3 (7.63 sec)
+2026-09-01T14:58:27.316Z	▲ [WARNING] Because 'workers_dev' is not in your Wrangler file, it will be enabled for this deployment by default.
+2026-09-01T14:58:27.317Z	
+2026-09-01T14:58:27.317Z	  To override this setting, you can disable workers.dev by explicitly setting 'workers_dev = false' in your Wrangler file.
+2026-09-01T14:58:27.317Z	
+2026-09-01T14:58:27.317Z	
+2026-09-01T14:58:27.318Z	▲ [WARNING] Because your 'workers.dev' route is enabled and your 'preview_urls' setting is not in your Wrangler file, Preview URLs will be enabled for this deployment by default.
+2026-09-01T14:58:27.318Z	
+2026-09-01T14:58:27.318Z	  To override this setting, you can disable Preview URLs by explicitly setting 'preview_urls = false' in your Wrangler file.
+2026-09-01T14:58:27.318Z	
+2026-09-01T14:58:27.318Z	
+2026-09-01T14:58:27.318Z	Deployed grace-innovation-project-3 triggers (0.72 sec)
+2026-09-01T14:58:27.318Z	  https://grace-innovation-project-3.labejarichard95.workers.dev
+2026-09-01T14:58:27.318Z	Current Version ID: 6d2df08d-d2a2-4eca-880b-7be6023f94eb
+2026-09-01T14:58:27.321Z	
+2026-09-01T14:58:27.321Z	Cloudflare collects anonymous telemetry about your usage of Wrangler. Learn more at https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler/telemetry.md
+2026-09-01T14:58:27.410Z	Success: Deploy command completed
+2026-09-01T14:58:27.663Z	✨ Success! Build completed.
